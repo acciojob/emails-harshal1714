@@ -70,8 +70,8 @@ if(Inbox.isEmpty()){
     return null;
 }
 else{
-    Emailformat latestemail = Inbox.get(Inbox.size() - 1);
-    return latestemail.message;
+    Emailformat emailTemplate = Inbox.get(Inbox.size() - 1);
+    return emailTemplate.message;
 }
     }
 
